@@ -35,26 +35,26 @@ for(int i=0;i<num;i++){
                 {
                     switch(count)
                     {
-                        case(1):{S[i]->m+=11; S[i]->q=" WS";goto Akshaya;}
-                        case(2):{S[i]->m+=9; S[i]->q=" MS";goto Akshaya;}
-                        case(3):{S[i]->m+=7; S[i]->q=" AS";goto Akshaya;}
-                        case(4):{S[i]->m+=5; S[i]->q=" AS";goto Akshaya;}
-                        case(5):{S[i]->m+=3; S[i]->q=" MS"; goto Akshaya;}
-                        case(6):{S[i]->m+=1; S[i]->q=" WS";goto Akshaya;}
-                        case(7):{S[i]->m-=1; S[i]->q=" WS";goto Akshaya;}
-                        case(8):{S[i]->m-=3; S[i]->q=" MS";goto Akshaya;}
-                        case(9):{S[i]->m-=5; S[i]->q=" AS";goto Akshaya;}
-                        case(10):{S[i]->m-=7; S[i]->q=" AS";goto Akshaya;}
-                        case(11):{S[i]->m-=9; S[i]->q=" MS";goto Akshaya;}
-                        case(12):{S[i]->m-=11; S[i]->q=" WS";goto Akshaya;}
+                        case(1):{S[i]->m+=11; S[i]->q=" WS";goto At;}
+                        case(2):{S[i]->m+=9; S[i]->q=" MS";goto At;}
+                        case(3):{S[i]->m+=7; S[i]->q=" AS";goto At;}
+                        case(4):{S[i]->m+=5; S[i]->q=" AS";goto At;}
+                        case(5):{S[i]->m+=3; S[i]->q=" MS"; goto At;}
+                        case(6):{S[i]->m+=1; S[i]->q=" WS";goto At;}
+                        case(7):{S[i]->m-=1; S[i]->q=" WS";goto At;}
+                        case(8):{S[i]->m-=3; S[i]->q=" MS";goto At;}
+                        case(9):{S[i]->m-=5; S[i]->q=" AS";goto At;}
+                        case(10):{S[i]->m-=7; S[i]->q=" AS";goto At;}
+                        case(11):{S[i]->m-=9; S[i]->q=" MS";goto At;}
+                        case(12):{S[i]->m-=11; S[i]->q=" WS";goto At}
                     }
-                   goto Akshaya; 
+                   goto At; 
                 }
                 
             }
         }
     }
-   Akshaya: count=0; //nothing
+   At: count=0; //nothing
 }
 for(int l=0;l<num;l++)
 {
